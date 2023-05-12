@@ -1,0 +1,54 @@
+.hero {
+    gap: 30px;
+    align-items: center;
+    background-image: url(../../img/hero_image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+    flex-direction: column;
+    min-height: 40vh;
+    padding: 10% 5%;
+}
+
+.hero-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-headline {
+    padding-top: 5%;
+}
+
+.buttons .first-button {
+    padding: 3px 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.buttons .first-button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.buttons .second-button {
+    padding: 3px 5px;
+    background-color: #fff
+}
+
+.buttons .second-button:hover {
+    background-color: lightgrey;
+}
+
+
+@media (min-width: 800px) {
+    .hero {
+        padding-bottom: 20%;
+        background-size: 100%;
+        background-position: auto;
+    }
+    .hero-headline {
+        font-size: 50px;
+    }
+}

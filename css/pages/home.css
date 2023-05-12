@@ -1,8 +1,13 @@
 /* ateina is base */
 
 @import '../base/base.css';
+@import '../pages/hero.css';
 @import '../base/layout.css';
 @import '../pages/header.css';
+@import '../pages/kvmr.css';
+@import '../pages/duk.css';
+@import '../pages/newsletter.css';
+@import '../pages/contact.css';
 
 /* ateina is 3rd party */
 

@@ -1,0 +1,32 @@
+.duk {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.duk-headline {
+    font-size: 25px;
+}
+
+.duk-paragraphs {
+    width: 100%;
+    padding:5% 0% 0%;
+    text-align: center;
+
+}
+
+.duk .second-headlines {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.duk p {
+    padding-bottom: 40px;
+}
+
+@media (min-wid: 800px) {
+    .duk-headline {
+        font-size: 70px;
+    }
+}

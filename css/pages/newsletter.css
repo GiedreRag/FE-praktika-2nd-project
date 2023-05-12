@@ -1,0 +1,11 @@
+.newsletter {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+.newsletter-headline {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
