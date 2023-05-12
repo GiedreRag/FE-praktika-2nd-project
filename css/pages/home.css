@@ -1,0 +1,10 @@
+/* ateina is base */
+
+@import '../base/base.css';
+@import '../base/layout.css';
+@import '../pages/header.css';
+
+/* ateina is 3rd party */
+
+@import '../3rd-party/font-awesome.min.css';
+

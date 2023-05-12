@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hamburger {
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.topnav {
+    visibility: hidden;
+    width:0;
+}
